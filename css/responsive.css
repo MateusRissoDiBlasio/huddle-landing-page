@@ -1,0 +1,103 @@
+@media (max-width: 375px){
+    
+    body{
+        width: 375px;
+        display: flex;
+        flex-direction: column;
+        background: url(../images/bg-mobile.svg);
+        background-repeat: no-repeat;
+        background-color: hsl(257, 40%, 49%);
+    }
+      
+    .header{
+        margin: 0;
+        padding: 35px;
+    }
+    
+    .header img{
+        width: 42%;
+    }
+
+    .info{
+        display: grid;
+        grid-template-columns: 1fr;
+        padding-right: 37.5px;
+        padding-left: 37.5px;
+        padding-top: 20px;
+    }
+
+    .info .layout{
+        height: 270px;
+    }
+    
+    .info .layout img{
+        width: 300px;
+    }
+
+    .info .description{
+        height: 290px;
+        padding: 0;   
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .info .description h2{
+        margin-bottom: 15px;
+        font-size: 24px;
+    }
+    
+    .info .description p{
+        margin-bottom: 35px;
+        font-size: 16px; 
+    }
+    
+    .info .description a{
+        font-size: 12px;
+        border-radius: 25px;
+        background-color: #fff;
+        padding: 10px 75px;
+        margin-top: 20px;
+        box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.3);
+    }
+    
+    .info .description a:hover{
+        background-color: hsl(300, 69%, 71%);
+        color: #fff;
+        transition: 0.3s;
+    }
+
+    .social{
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        height: 100px;
+    }
+
+    .social a{      
+        border-width: 1px;
+        width: 30px;
+        height: 30px;
+    }
+    
+    .fa-facebook-f{
+        font-size: 14px;
+        padding: 8px 10px; 
+    }
+    
+    .fa-twitter{
+        font-size: 12px;
+        padding: 10px 9px;
+    }
+    
+    .fa-instagram{
+        font-size: 17px;
+        padding: 6px 8px;
+    } 
+    
+}
+
+
+
+
+
+
